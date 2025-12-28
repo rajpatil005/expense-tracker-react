@@ -1,16 +1,82 @@
-# React + Vite
+# Expense Tracker React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly **Expense Tracker** built with **React** and **Vite**.  
+Users can add, delete, and view expenses with data saved in **localStorage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Add new expenses with title and amount  
+- Delete expenses individually  
+- Data persists using **localStorage**  
+- Responsive and clean UI  
+- Built with **React functional components** and **hooks**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (JSX, Hooks)  
+- **JavaScript (ES6+)**  
+- **HTML & CSS**  
+- **Vite** for fast development  
+- **localStorage** for data persistence
+
+---
+
+## Project Structure
+
+```
+expense-tracker-react/
+│
+├── src/
+│   ├── components/
+│   │   ├── ExpenseForm.jsx
+│   │   ├── ExpenseItem.jsx
+│   │   └── ExpenseList.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── .gitignore
+```
+
+---
+
+## How to Run Locally
+
+1. **Clone the repository**
+   ```
+   git clone https://github.com/rajpatil005/expense-tracker-react.git
+   cd expense-tracker-react
+   ```
+
+2. **Install dependencies**
+   ```
+   npm install
+   ```
+
+3. **Start the development server**
+   ```
+   npm run dev
+   ```
+
+---
+
+## Notes
+
+- Data is stored in the browser using **localStorage**, so it persists on page reload  
+- UI is built using **Flexbox** and simple CSS for clarity  
+- This project is ideal for beginners learning React fundamentals
+
+---
+
+## Contact
+
+If you want to discuss this project or see more of my work:
+
+- **GitHub:** [rajpatil005](https://github.com/rajpatil005)  
+- **LinkedIn:** [Rajvardhan Patil](https://www.linkedin.com/in/rajvardhan-patil-06727a300/)
